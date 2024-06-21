@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0 http://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd" name="AutoJavaHW_2"
+    xmlns="https://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileSets>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>.idea</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>.idea</directory>
+      <includes>
+        <include>**/*.gitignore</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>.gitignore</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+  <modules>
+    <module id="module-a" dir="module-a" name="module-a" />
+    <module id="module-b" dir="module-b" name="module-b" />
+    <module id="module-c" dir="module-c" name="module-c" />
+  </modules>
+</archetype-descriptor>
